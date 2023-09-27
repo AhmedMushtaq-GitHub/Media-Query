@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+          
+            background-color: blue;
+            color: white;
+            text-align: center;
+            font-size: 50px;
+        }
+        h1{
+            text-align: center;
+        }
+       
+        @media screen and (max-width : 767px) {
+            #iphone{
+            
+              background-color: green;  
+             
+            }
+            h1{
+            text-align: end;
+            color: crimson;
+        }
+        }
+        @media screen and (min-width : 767px) and (max-width : 1023px) {
+            #ipad{
+                background-color: rgb(236, 8, 8);  
+            }
+            h1{
+            text-align: end;
+            color: rgb(220, 20, 213);
+        }
+        }
+        @media screen and (min-width : 1024px) {
+            #mackbook{
+                background-color: rgb(211, 253, 0);  
+            }
+            h1{
+            text-align: end;
+            color: rgb(220, 133, 20);
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="iphone">
+     Ma Iphone hoon
+     <h1>  Heading </h1>
+    </div>
+    <div class="box" id="ipad">
+        Ma ipad hoon
+    </div>
+    <div class="box" id="mackbook">
+        Ma mackbook hoon
+    </div>
+</body>
+</html>

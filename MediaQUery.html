@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .iphone{
+          
+            display: none;
+
+          
+        }
+        .ipad{
+         
+            display: none;
+        }
+        .mackbook{
+       
+            display: none;
+        }
+        @media screen and (max-width : 767px) {
+            #iphone{
+                display: block;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+             
+            }
+        }
+        @media screen and (min-width : 767px) and (max-width : 1023px) {
+            #ipad{
+                display: block;
+                display: flex;
+          align-items: center;
+          justify-content: center;
+            }
+        }
+        @media screen and (min-width : 1024px) {
+            #mackbook{
+                display: block;
+                display: flex;
+          align-items: center;
+          justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="iphone" id="iphone">
+        <img src="/Iphone.jpeg" alt="">
+    </div>
+    <div class="ipad" id="ipad">
+        <img src="/Ipad.jpeg" alt="">
+    </div>
+    <div class="mackbook" id="mackbook">
+        <img src="/MackBook.jpeg" alt="">
+    </div>
+</body>
+</html>
